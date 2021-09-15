@@ -1,0 +1,66 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: #000000;
+  background-image: url('https://limelightr.org/wp-content/uploads/2021/02/AgentsArmy_Animation_Cleaning.gif');
+  background-position: center;
+}
+
+.iconMain {
+  margin: 0 5em;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.iconMain .icon {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ffffff;
+  background-position: center;
+  background-image: url('https://cdn4.iconfinder.com/data/icons/blue-ice-interaction-patterns/24/Untitled-18-128.png');
+}
+
+.iconMain .icon span {
+  position: absolute;
+  top: 50%;
+  margin-top: 10px;
+  padding: 0.55rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: #000;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.iconMain .icon:hover span {
+  top: 100%;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 1em;
+}
