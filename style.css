@@ -9,7 +9,7 @@ body {
   display: flex;
   height: 100vh;
   overflow: hidden;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: flex-end;
   font-family: "Montserrat", sans-serif;
@@ -27,6 +27,7 @@ body {
 }
 
 .iconMain .icon {
+  margin: 25px;
   position: relative;
   display: flex;
   width: 150px;
